@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Open Closed Principle", "Open Closed Principle", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Initial", "Initial", "{214A0711-3F19-40FD-86AA-84DE2BA386F7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mistake", "Mistake", "{214A0711-3F19-40FD-86AA-84DE2BA386F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\MonitorAssembly\MonitorAssembly.csproj", "{7E0B9E94-321E-2725-7A34-B0C470E286E4}"
 EndProject
