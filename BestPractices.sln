@@ -1,10 +1,31 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Open Closed Principle", "Open Closed Principle", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Initial", "Initial", "{214A0711-3F19-40FD-86AA-84DE2BA386F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\MonitorAssembly\MonitorAssembly.csproj", "{7E0B9E94-321E-2725-7A34-B0C470E286E4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E0B9E94-321E-2725-7A34-B0C470E286E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0B9E94-321E-2725-7A34-B0C470E286E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0B9E94-321E-2725-7A34-B0C470E286E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0B9E94-321E-2725-7A34-B0C470E286E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{214A0711-3F19-40FD-86AA-84DE2BA386F7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7E0B9E94-321E-2725-7A34-B0C470E286E4} = {214A0711-3F19-40FD-86AA-84DE2BA386F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA6D7836-7154-412F-82CA-B3A826FA01AB}
