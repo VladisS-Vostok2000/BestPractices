@@ -1,4 +1,5 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -12,6 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1) Initial", "1) Initial", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAssembly", "BestPractices\OOP\SOLID\Dependency Invertion Principle\1) Initial\AppAssembly\AppAssembly.csproj", "{DA398A18-8C26-268D-9E67-39BA9BD24B01}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Open Closed Principle", "Open Closed Principle", "{4456EBD0-84B8-47BE-8719-4A3A623CC2A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1) Initial", "1) Initial", "{3EA50028-5014-4933-A781-03744722D544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\1) Initial\MonitorAssembly\MonitorAssembly.csproj", "{BCC749D6-7FBB-647D-B996-C34934E9256B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +29,10 @@ Global
 		{DA398A18-8C26-268D-9E67-39BA9BD24B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA398A18-8C26-268D-9E67-39BA9BD24B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA398A18-8C26-268D-9E67-39BA9BD24B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC749D6-7FBB-647D-B996-C34934E9256B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC749D6-7FBB-647D-B996-C34934E9256B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC749D6-7FBB-647D-B996-C34934E9256B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC749D6-7FBB-647D-B996-C34934E9256B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,6 +42,9 @@ Global
 		{D6D234BF-070C-4724-833E-5DF73A0449CB} = {FCF42F9D-B138-48CE-BDBF-E1D440CC5025}
 		{FADFCE79-2078-4CF9-8AD7-D00B8004E762} = {D6D234BF-070C-4724-833E-5DF73A0449CB}
 		{DA398A18-8C26-268D-9E67-39BA9BD24B01} = {FADFCE79-2078-4CF9-8AD7-D00B8004E762}
+		{4456EBD0-84B8-47BE-8719-4A3A623CC2A8} = {FCF42F9D-B138-48CE-BDBF-E1D440CC5025}
+		{3EA50028-5014-4933-A781-03744722D544} = {4456EBD0-84B8-47BE-8719-4A3A623CC2A8}
+		{BCC749D6-7FBB-647D-B996-C34934E9256B} = {3EA50028-5014-4933-A781-03744722D544}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA6D7836-7154-412F-82CA-B3A826FA01AB}
