@@ -27,6 +27,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3) Escalation", "3) Escalat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\3) Escalation\MonitorAssembly\MonitorAssembly.csproj", "{B0723473-29EE-D0ED-F287-00ABD0538B58}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4) Refactoring", "4) Refactoring", "{3EF35A0E-1AFD-4F3F-B6C6-23A807497DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\4) Refactoring\LoggingAssembly\LoggingAssembly.csproj", "{2E459E4B-E212-5D15-5988-408D7E6A5284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingAbstractionsAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\4) Refactoring\LoggingAbstractionsAssembly\LoggingAbstractionsAssembly.csproj", "{59C44D9D-B9F0-3511-7024-A29886D22C64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\4) Refactoring\MonitorAssembly\MonitorAssembly.csproj", "{ABC5AADD-FCB7-A65B-B415-86146367F889}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +57,18 @@ Global
 		{B0723473-29EE-D0ED-F287-00ABD0538B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0723473-29EE-D0ED-F287-00ABD0538B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0723473-29EE-D0ED-F287-00ABD0538B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E459E4B-E212-5D15-5988-408D7E6A5284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E459E4B-E212-5D15-5988-408D7E6A5284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E459E4B-E212-5D15-5988-408D7E6A5284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E459E4B-E212-5D15-5988-408D7E6A5284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C44D9D-B9F0-3511-7024-A29886D22C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C44D9D-B9F0-3511-7024-A29886D22C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C44D9D-B9F0-3511-7024-A29886D22C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C44D9D-B9F0-3511-7024-A29886D22C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC5AADD-FCB7-A65B-B415-86146367F889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC5AADD-FCB7-A65B-B415-86146367F889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC5AADD-FCB7-A65B-B415-86146367F889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC5AADD-FCB7-A65B-B415-86146367F889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +85,10 @@ Global
 		{AD568564-3D62-4892-9406-FE88F94C398B} = {16EEAF08-8BD6-411F-8CDA-06A895C99F46}
 		{37BBDA82-8AFA-4F68-A1A4-D69DB7B33898} = {4456EBD0-84B8-47BE-8719-4A3A623CC2A8}
 		{B0723473-29EE-D0ED-F287-00ABD0538B58} = {37BBDA82-8AFA-4F68-A1A4-D69DB7B33898}
+		{3EF35A0E-1AFD-4F3F-B6C6-23A807497DF8} = {4456EBD0-84B8-47BE-8719-4A3A623CC2A8}
+		{2E459E4B-E212-5D15-5988-408D7E6A5284} = {3EF35A0E-1AFD-4F3F-B6C6-23A807497DF8}
+		{59C44D9D-B9F0-3511-7024-A29886D22C64} = {3EF35A0E-1AFD-4F3F-B6C6-23A807497DF8}
+		{ABC5AADD-FCB7-A65B-B415-86146367F889} = {3EF35A0E-1AFD-4F3F-B6C6-23A807497DF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA6D7836-7154-412F-82CA-B3A826FA01AB}
