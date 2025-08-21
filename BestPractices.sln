@@ -5,9 +5,13 @@ VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Open Closed Principle", "Open Closed Principle", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mistake", "Mistake", "{214A0711-3F19-40FD-86AA-84DE2BA386F7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Refactoring", "Refactoring", "{9E8A1D6D-FCD4-46DE-95F3-C77F476A0B97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\MonitorAssembly\MonitorAssembly.csproj", "{7E0B9E94-321E-2725-7A34-B0C470E286E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingAbstractionsAssembly", "BestPractices\LoggingAbstractionsAssembly\LoggingAbstractionsAssembly.csproj", "{8DC35383-754E-C20D-90D9-E0D7F69DCE3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingAssembly", "BestPractices\LoggingAssembly\LoggingAssembly.csproj", "{43378DA6-2D2D-E8E4-1244-D88A3445103D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,13 +23,23 @@ Global
 		{7E0B9E94-321E-2725-7A34-B0C470E286E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E0B9E94-321E-2725-7A34-B0C470E286E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E0B9E94-321E-2725-7A34-B0C470E286E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC35383-754E-C20D-90D9-E0D7F69DCE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC35383-754E-C20D-90D9-E0D7F69DCE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC35383-754E-C20D-90D9-E0D7F69DCE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC35383-754E-C20D-90D9-E0D7F69DCE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43378DA6-2D2D-E8E4-1244-D88A3445103D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43378DA6-2D2D-E8E4-1244-D88A3445103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43378DA6-2D2D-E8E4-1244-D88A3445103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43378DA6-2D2D-E8E4-1244-D88A3445103D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{214A0711-3F19-40FD-86AA-84DE2BA386F7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{7E0B9E94-321E-2725-7A34-B0C470E286E4} = {214A0711-3F19-40FD-86AA-84DE2BA386F7}
+		{9E8A1D6D-FCD4-46DE-95F3-C77F476A0B97} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7E0B9E94-321E-2725-7A34-B0C470E286E4} = {9E8A1D6D-FCD4-46DE-95F3-C77F476A0B97}
+		{8DC35383-754E-C20D-90D9-E0D7F69DCE3C} = {9E8A1D6D-FCD4-46DE-95F3-C77F476A0B97}
+		{43378DA6-2D2D-E8E4-1244-D88A3445103D} = {9E8A1D6D-FCD4-46DE-95F3-C77F476A0B97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA6D7836-7154-412F-82CA-B3A826FA01AB}
