@@ -1,5 +1,10 @@
 ﻿namespace OOPBestPractices.OOP.SOLID.OpenClosedPrinciple.LoggingAssembly;
-public sealed class FileLogger : ILogger, IDisposable {
+
+// Removing `static` trash
+// Implementing another
+// common function
+// as `IDisposable`
+internal sealed class FileLogger : ILogger, IDisposable {
     private StreamWriter Writer { get; set; }
 
 
