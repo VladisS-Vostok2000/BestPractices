@@ -1,6 +1,5 @@
 ﻿namespace OOPBestPractices.OOP.SOLID.OpenClosedPrinciple.MonitorAssembly.Internal;
 
-// Adding new logger
 internal static class FileLogger {
     private static StreamWriter Writer { get; set; }
 

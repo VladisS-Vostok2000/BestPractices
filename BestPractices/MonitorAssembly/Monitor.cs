@@ -5,8 +5,6 @@ public static class Monitor {
     public static void Log(LogType type, string log) {
         // Simulating logging
         // as common domain logic
-
-        // Hardcoded logger types enumeration
         try {
             if (type == LogType.None) {
                 return;
@@ -25,8 +23,6 @@ public static class Monitor {
         }
     }
 
-    // Different but required logic
-    // of represented logger
     public static void Close(LogType type) {
         if (type == LogType.File) {
             FileLogger.Close();
