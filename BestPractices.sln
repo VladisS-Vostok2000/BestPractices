@@ -35,6 +35,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingAbstractionsAssembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\4) Refactoring\MonitorAssembly\MonitorAssembly.csproj", "{ABC5AADD-FCB7-A65B-B415-86146367F889}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5) Solution", "5) Solution", "{C7CC0A88-0C6E-4C06-BE7B-0F954BCF40C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingAbstractionsAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\5) Solution\LoggingAbstractionsAssembly\LoggingAbstractionsAssembly.csproj", "{DD2550C8-A2C1-F030-13F2-DA326F66B697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\5) Solution\LoggingAssembly\LoggingAssembly.csproj", "{89CD0BE2-3E11-8B54-6499-2BC39F58A107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\5) Solution\MonitorAssembly\MonitorAssembly.csproj", "{0C06FC9F-3EEC-9133-20E4-31B4DFCF535A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +77,18 @@ Global
 		{ABC5AADD-FCB7-A65B-B415-86146367F889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABC5AADD-FCB7-A65B-B415-86146367F889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABC5AADD-FCB7-A65B-B415-86146367F889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2550C8-A2C1-F030-13F2-DA326F66B697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2550C8-A2C1-F030-13F2-DA326F66B697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2550C8-A2C1-F030-13F2-DA326F66B697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2550C8-A2C1-F030-13F2-DA326F66B697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CD0BE2-3E11-8B54-6499-2BC39F58A107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CD0BE2-3E11-8B54-6499-2BC39F58A107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CD0BE2-3E11-8B54-6499-2BC39F58A107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CD0BE2-3E11-8B54-6499-2BC39F58A107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C06FC9F-3EEC-9133-20E4-31B4DFCF535A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C06FC9F-3EEC-9133-20E4-31B4DFCF535A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C06FC9F-3EEC-9133-20E4-31B4DFCF535A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C06FC9F-3EEC-9133-20E4-31B4DFCF535A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +109,10 @@ Global
 		{2E459E4B-E212-5D15-5988-408D7E6A5284} = {3EF35A0E-1AFD-4F3F-B6C6-23A807497DF8}
 		{59C44D9D-B9F0-3511-7024-A29886D22C64} = {3EF35A0E-1AFD-4F3F-B6C6-23A807497DF8}
 		{ABC5AADD-FCB7-A65B-B415-86146367F889} = {3EF35A0E-1AFD-4F3F-B6C6-23A807497DF8}
+		{C7CC0A88-0C6E-4C06-BE7B-0F954BCF40C9} = {4456EBD0-84B8-47BE-8719-4A3A623CC2A8}
+		{DD2550C8-A2C1-F030-13F2-DA326F66B697} = {C7CC0A88-0C6E-4C06-BE7B-0F954BCF40C9}
+		{89CD0BE2-3E11-8B54-6499-2BC39F58A107} = {C7CC0A88-0C6E-4C06-BE7B-0F954BCF40C9}
+		{0C06FC9F-3EEC-9133-20E4-31B4DFCF535A} = {C7CC0A88-0C6E-4C06-BE7B-0F954BCF40C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA6D7836-7154-412F-82CA-B3A826FA01AB}
