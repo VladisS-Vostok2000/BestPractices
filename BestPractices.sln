@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2) Mistake", "2) Mistake", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\2) Mistake\MonitorAssembly\MonitorAssembly.csproj", "{AD568564-3D62-4892-9406-FE88F94C398B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3) Escalation", "3) Escalation", "{37BBDA82-8AFA-4F68-A1A4-D69DB7B33898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAssembly", "BestPractices\OOP\SOLID\Open Closed Principle\3) Escalation\MonitorAssembly\MonitorAssembly.csproj", "{B0723473-29EE-D0ED-F287-00ABD0538B58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{AD568564-3D62-4892-9406-FE88F94C398B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD568564-3D62-4892-9406-FE88F94C398B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD568564-3D62-4892-9406-FE88F94C398B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0723473-29EE-D0ED-F287-00ABD0538B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0723473-29EE-D0ED-F287-00ABD0538B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0723473-29EE-D0ED-F287-00ABD0538B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0723473-29EE-D0ED-F287-00ABD0538B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +63,8 @@ Global
 		{BCC749D6-7FBB-647D-B996-C34934E9256B} = {3EA50028-5014-4933-A781-03744722D544}
 		{16EEAF08-8BD6-411F-8CDA-06A895C99F46} = {4456EBD0-84B8-47BE-8719-4A3A623CC2A8}
 		{AD568564-3D62-4892-9406-FE88F94C398B} = {16EEAF08-8BD6-411F-8CDA-06A895C99F46}
+		{37BBDA82-8AFA-4F68-A1A4-D69DB7B33898} = {4456EBD0-84B8-47BE-8719-4A3A623CC2A8}
+		{B0723473-29EE-D0ED-F287-00ABD0538B58} = {37BBDA82-8AFA-4F68-A1A4-D69DB7B33898}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA6D7836-7154-412F-82CA-B3A826FA01AB}
