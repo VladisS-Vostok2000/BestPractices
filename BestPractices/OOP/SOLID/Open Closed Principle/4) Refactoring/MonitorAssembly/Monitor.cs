@@ -1,5 +1,5 @@
 ﻿// Rift logging domain
-// and logging application
+// and logging application logic
 // from the `MonitorAssembly`
 namespace OOPBestPractices.OOP.SOLID.OpenClosedPrinciple.MonitorAssembly;
 public static class Monitor {
