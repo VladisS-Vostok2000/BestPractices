@@ -2,9 +2,35 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{FCF42F9D-B138-48CE-BDBF-E1D440CC5025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Invertion Principle", "Dependency Invertion Principle", "{D6D234BF-070C-4724-833E-5DF73A0449CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1) Initial", "1) Initial", "{FADFCE79-2078-4CF9-8AD7-D00B8004E762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAssembly", "BestPractices\OOP\SOLID\Dependency Invertion Principle\1) Initial\AppAssembly\AppAssembly.csproj", "{DA398A18-8C26-268D-9E67-39BA9BD24B01}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA398A18-8C26-268D-9E67-39BA9BD24B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA398A18-8C26-268D-9E67-39BA9BD24B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA398A18-8C26-268D-9E67-39BA9BD24B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA398A18-8C26-268D-9E67-39BA9BD24B01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCF42F9D-B138-48CE-BDBF-E1D440CC5025} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D6D234BF-070C-4724-833E-5DF73A0449CB} = {FCF42F9D-B138-48CE-BDBF-E1D440CC5025}
+		{FADFCE79-2078-4CF9-8AD7-D00B8004E762} = {D6D234BF-070C-4724-833E-5DF73A0449CB}
+		{DA398A18-8C26-268D-9E67-39BA9BD24B01} = {FADFCE79-2078-4CF9-8AD7-D00B8004E762}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA6D7836-7154-412F-82CA-B3A826FA01AB}
